@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="logo-icon">
+          <ul id="etc">
+            <li>item</li>
+          </ul>
+
+          <div id="logo">
+            <img src="assets/logo-skkn.png" alt="logo-skkn" />
+          </div>
+
+          <ul id="nav-icon">
+            <li>
+              <select name="unit" id="unit"></select>
+            </li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-user"></i></li>
+            <li><i class="bx bx-basket"></i></li>
+          </ul>
+        </div>
+
+        <div id="nav-items">
+          <ul>
+            <li>MAKEUP</li>
+            <li>SKINCARE</li>
+            <li>REFILLS</li>
+            <li>ACCESSORIES</li>
+            <li>SETS & BUNDLES</li>
+            <li>DISCOVER</li>
+          </ul>
+        </div>
+      </nav>
+
+      <section id="banner">
+        <div>
+          <img src="assets/banner.jpg" alt="banner img" />
+          <div id="banner-txt">
+            <h2>SKKN BY KIM MAKEUP</h2>
+            <p>
+              Where skin-loving formulas <br />
+              meet high-performance glam
+            </p>
+            <button>SHOP NOW</button>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <section id="arrivals-txt">
+      <div>
+        <p>NEW ARRIVALS</p>
+        <p><i class="bx bx-right-arrow-alt"></i> Shop All</p>
+      </div>
+    </section>
+
+    <section id="cards">
+      <div>
+        <div>
+        <p id="makeup-txt">THE NEW NEUTRALS</p>
+        <p id="p-makeup">
+          Inspired by Kim's iconic smoky eye and nude lip, our makeup collection
+          is the ultimate destination for the perfect nudes you'll never stop
+          reaching for.
+        </p>
+        <button>SHOP MAKEUP</button>
+    </div>
+        <img src="assets/makeup.jpg" alt="THE NEW NEUTRALS." />
+      </div>
+    </section>
+
+    <section id="skincare-cards">
+      <div>
+        <video autoplay>
+          <source src="assets/kim video.mp4">
+        </video>
+        <div>
+        <p id="skincare-txt">A NEW ERA OF SKINCARE</p>
+        <p id="p-skincare">
+          Discover the power of our performance-driven formulas, expertly crafted for hydrated, balanced, and nourished skin.
+        </p>
+        <button>SHOP SKINCARE</button>
+    </div>
+      </div>
+    </section>
+
+    <section id="vip-renew">
+      <div id="vip">
+        <img src="assets/girls.jpg" alt="Become a VIP">
+
+        <div>
+          <h3>BECOME A VIP</h3>
+          <p>Earn points on every purchase to redeem for exclusive savings.</p>
+          <button>JOIN REWARDS</button>
+        </div>
+      </div>
+
+      <div id="renew">
+        <img src="assets/eye cream.jpg" alt="RENEW WITH EASE">
+
+        <div>
+          <h3>RENEW WITH EASE</h3>
+          <p>Get your essentials delivered automatically with free shipping and a 10% discount.</p>
+          <button>SUBSCRIBE</button>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="products">
+      <div class="items">
+        <img src="assets/cosmetics.jpg" alt="MAKEUP">
+        <div>
+          <h3>MAKEUP</h3>
+        </div>
+      </div>
+
+      <div class="items">
+        <img src="assets/skin care.jpg" alt="SKINCARE">
+        <div>
+          <h3>SKINCARE</h3>
+        </div>
+      </div>
+
+      <div class="items">
+        <img src="assets/Accessories.jpg" alt="ACCESSORIES">
+        <div>
+          <h3>ACCESSORIES</h3>
+        </div>
+      </div>
+
+      <div class="items">
+        <img src="assets/bundles.jpg" alt="BUNDLES">
+        <div>
+          <h3>BUNDLES</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="slider">
+      <div class="wrapper">
+        <ul class="carousel">
+          <li class="card">
+            <div class="img">
+              <img
+                src="assets/slider1.jpg"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img
+                src="assets/slider2.jpg"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img
+                src="assets/slider3.jpg"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img
+                src="assets/slider4.jpg"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img
+                src="assets/slider5.jpg"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+          </li>
+          <li class="card">
+            <div class="img">
+              <img
+                src="assets/slider6.jpg"
+                alt="img"
+                draggable="false"
+              />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  <section class="image-slider-container">
+      <div class="image-slider-heading">
+          <h2 class="image-slider-title">
+           Popular Products 🤩
+          </h2> 
+          <div class="swiper-pagination"></div>
+      </div>
+      <div class="swiper">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <div class="slide-con">
+                      <img src="assets/Accessories.jpg"
+                          alt="">
+                      <div class="slide-details">
+                          <div class="movie-info">
+                              <h2 class="movie-name" title="">
+                                Cream
+                              </h2>
+                              <span class="movie-views" title="">
+                                  
+                              </span>
+                          </div>
+                          <div class="movie-btns">
+                              <a href="#" class="like" title="">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                      preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36">
+                                      <path fill="currentColor"
+                                          d="M33 7.64c-1.34-2.75-5.2-5-9.69-3.69A9.87 9.87 0 0 0 18 7.72a9.87 9.87 0 0 0-5.31-3.77C8.19 2.66 4.34 4.89 3 7.64c-1.88 3.85-1.1 8.18 2.32 12.87C8 24.18 11.83 27.9 17.39 32.22a1 1 0 0 0 1.23 0c5.55-4.31 9.39-8 12.07-11.71c3.41-4.69 4.19-9.02 2.31-12.87Z"
+                                          class="clr-i-solid clr-i-solid-path-1" />
+                                      <path fill="none" d="M0 0h36v36H0z" />
+                                  </svg>
+                              </a>
+                              <a href="#" class="show-movie" title="">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                      preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256">
+                                      <path fill="currentColor"
+                                          d="M240 128a16.1 16.1 0 0 1-7.7 13.7l-144 87.9a15.5 15.5 0 0 1-16.1.3A15.8 15.8 0 0 1 64 216V40a15.8 15.8 0 0 1 8.2-13.9a15.5 15.5 0 0 1 16.1.3l144 87.9A16.1 16.1 0 0 1 240 128Z" />
+                                  </svg>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                  <div class="slide-con"><img
+                          src="assets/cosmetics.jpg"
+                          alt="">
+                          <div class="slide-details">
+                              <div class="movie-info">
+                                  <h2 class="movie-name" title="">
+                                    Accessories
+                                  </h2>
+                                  <span class="movie-views" title="">
+                                      
+                                  </span>
+                              </div>
+                              <div class="movie-btns">
+                                  <a href="#" class="like" title="">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36">
+                                          <path fill="currentColor"
+                                              d="M33 7.64c-1.34-2.75-5.2-5-9.69-3.69A9.87 9.87 0 0 0 18 7.72a9.87 9.87 0 0 0-5.31-3.77C8.19 2.66 4.34 4.89 3 7.64c-1.88 3.85-1.1 8.18 2.32 12.87C8 24.18 11.83 27.9 17.39 32.22a1 1 0 0 0 1.23 0c5.55-4.31 9.39-8 12.07-11.71c3.41-4.69 4.19-9.02 2.31-12.87Z"
+                                              class="clr-i-solid clr-i-solid-path-1" />
+                                          <path fill="none" d="M0 0h36v36H0z" />
+                                      </svg>
+                                  </a>
+                                  <a href="#" class="show-movie" title="">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256">
+                                          <path fill="currentColor"
+                                              d="M240 128a16.1 16.1 0 0 1-7.7 13.7l-144 87.9a15.5 15.5 0 0 1-16.1.3A15.8 15.8 0 0 1 64 216V40a15.8 15.8 0 0 1 8.2-13.9a15.5 15.5 0 0 1 16.1.3l144 87.9A16.1 16.1 0 0 1 240 128Z" />
+                                      </svg>
+                                  </a>
+                              </div>
+                          </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-con"><img
+                        src="assets/bundles.jpg"
+                        alt="">
+                        <div class="slide-details">
+                            <div class="movie-info">
+                                <h2 class="movie-name" title="">
+                                  Bundles
+                                </h2>
+                                <span class="movie-views" title="">
+                                    
+                                </span>
+                            </div>
+                            <div class="movie-btns">
+                                <a href="#" class="like" title="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36">
+                                        <path fill="currentColor"
+                                            d="M33 7.64c-1.34-2.75-5.2-5-9.69-3.69A9.87 9.87 0 0 0 18 7.72a9.87 9.87 0 0 0-5.31-3.77C8.19 2.66 4.34 4.89 3 7.64c-1.88 3.85-1.1 8.18 2.32 12.87C8 24.18 11.83 27.9 17.39 32.22a1 1 0 0 0 1.23 0c5.55-4.31 9.39-8 12.07-11.71c3.41-4.69 4.19-9.02 2.31-12.87Z"
+                                            class="clr-i-solid clr-i-solid-path-1" />
+                                        <path fill="none" d="M0 0h36v36H0z" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="show-movie" title="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                        preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256">
+                                        <path fill="currentColor"
+                                            d="M240 128a16.1 16.1 0 0 1-7.7 13.7l-144 87.9a15.5 15.5 0 0 1-16.1.3A15.8 15.8 0 0 1 64 216V40a15.8 15.8 0 0 1 8.2-13.9a15.5 15.5 0 0 1 16.1.3l144 87.9A16.1 16.1 0 0 1 240 128Z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-con"><img
+                      src="assets/eye cream.jpg"
+                      alt="">
+                      <div class="slide-details">
+                          <div class="movie-info">
+                              <h2 class="movie-name" title="">
+                                Eye Cream
+                              </h2>
+                              <span class="movie-views" title="">
+                                  
+                              </span>
+                          </div>
+                          <div class="movie-btns">
+                              <a href="#" class="like" title="">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                      preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36">
+                                      <path fill="currentColor"
+                                          d="M33 7.64c-1.34-2.75-5.2-5-9.69-3.69A9.87 9.87 0 0 0 18 7.72a9.87 9.87 0 0 0-5.31-3.77C8.19 2.66 4.34 4.89 3 7.64c-1.88 3.85-1.1 8.18 2.32 12.87C8 24.18 11.83 27.9 17.39 32.22a1 1 0 0 0 1.23 0c5.55-4.31 9.39-8 12.07-11.71c3.41-4.69 4.19-9.02 2.31-12.87Z"
+                                          class="clr-i-solid clr-i-solid-path-1" />
+                                      <path fill="none" d="M0 0h36v36H0z" />
+                                  </svg>
+                              </a>
+                              <a href="#" class="show-movie" title="">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                      preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256">
+                                      <path fill="currentColor"
+                                          d="M240 128a16.1 16.1 0 0 1-7.7 13.7l-144 87.9a15.5 15.5 0 0 1-16.1.3A15.8 15.8 0 0 1 64 216V40a15.8 15.8 0 0 1 8.2-13.9a15.5 15.5 0 0 1 16.1.3l144 87.9A16.1 16.1 0 0 1 240 128Z" />
+                                  </svg>
+                              </a>
+                          </div>
+                      </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-con"><img
+                    src="assets/makeup.jpg"
+                    alt="">
+                    <div class="slide-details">
+                        <div class="movie-info">
+                            <h2 class="movie-name" title="">
+                              Makeup
+                            </h2>
+                            <span class="movie-views" title="">
+                                
+                            </span>
+                        </div>
+                        <div class="movie-btns">
+                            <a href="#" class="like" title="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36">
+                                    <path fill="currentColor"
+                                        d="M33 7.64c-1.34-2.75-5.2-5-9.69-3.69A9.87 9.87 0 0 0 18 7.72a9.87 9.87 0 0 0-5.31-3.77C8.19 2.66 4.34 4.89 3 7.64c-1.88 3.85-1.1 8.18 2.32 12.87C8 24.18 11.83 27.9 17.39 32.22a1 1 0 0 0 1.23 0c5.55-4.31 9.39-8 12.07-11.71c3.41-4.69 4.19-9.02 2.31-12.87Z"
+                                        class="clr-i-solid clr-i-solid-path-1" />
+                                    <path fill="none" d="M0 0h36v36H0z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="show-movie" title="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256">
+                                    <path fill="currentColor"
+                                        d="M240 128a16.1 16.1 0 0 1-7.7 13.7l-144 87.9a15.5 15.5 0 0 1-16.1.3A15.8 15.8 0 0 1 64 216V40a15.8 15.8 0 0 1 8.2-13.9a15.5 15.5 0 0 1 16.1.3l144 87.9A16.1 16.1 0 0 1 240 128Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slide-con"><img
+                  src="assets/skin care.jpg"
+                  alt="">
+                  <div class="slide-details">
+                      <div class="movie-info">
+                          <h2 class="movie-name" title="">
+                            Skincare
+                          </h2>
+                          <span class="movie-views" title="">
+                              
+                          </span>
+                      </div>
+                      <div class="movie-btns">
+                          <a href="#" class="like" title="">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                  preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36">
+                                  <path fill="currentColor"
+                                      d="M33 7.64c-1.34-2.75-5.2-5-9.69-3.69A9.87 9.87 0 0 0 18 7.72a9.87 9.87 0 0 0-5.31-3.77C8.19 2.66 4.34 4.89 3 7.64c-1.88 3.85-1.1 8.18 2.32 12.87C8 24.18 11.83 27.9 17.39 32.22a1 1 0 0 0 1.23 0c5.55-4.31 9.39-8 12.07-11.71c3.41-4.69 4.19-9.02 2.31-12.87Z"
+                                      class="clr-i-solid clr-i-solid-path-1" />
+                                  <path fill="none" d="M0 0h36v36H0z" />
+                              </svg>
+                          </a>
+                          <a href="#" class="show-movie" title="">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                  preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256">
+                                  <path fill="currentColor"
+                                      d="M240 128a16.1 16.1 0 0 1-7.7 13.7l-144 87.9a15.5 15.5 0 0 1-16.1.3A15.8 15.8 0 0 1 64 216V40a15.8 15.8 0 0 1 8.2-13.9a15.5 15.5 0 0 1 16.1.3l144 87.9A16.1 16.1 0 0 1 240 128Z" />
+                              </svg>
+                          </a>
+                      </div>
+                  </div>
+          </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="slide-con"><img
+                src="assets/Accessories.jpg"
+                alt="">
+                <div class="slide-details">
+                    <div class="movie-info">
+                        <h2 class="movie-name" title="">
+                          Accessories
+                        </h2>
+                        <span class="movie-views" title="">
+                            
+                        </span>
+                    </div>
+                    <div class="movie-btns">
+                        <a href="#" class="like" title="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36">
+                                <path fill="currentColor"
+                                    d="M33 7.64c-1.34-2.75-5.2-5-9.69-3.69A9.87 9.87 0 0 0 18 7.72a9.87 9.87 0 0 0-5.31-3.77C8.19 2.66 4.34 4.89 3 7.64c-1.88 3.85-1.1 8.18 2.32 12.87C8 24.18 11.83 27.9 17.39 32.22a1 1 0 0 0 1.23 0c5.55-4.31 9.39-8 12.07-11.71c3.41-4.69 4.19-9.02 2.31-12.87Z"
+                                    class="clr-i-solid clr-i-solid-path-1" />
+                                <path fill="none" d="M0 0h36v36H0z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="show-movie" title="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256">
+                                <path fill="currentColor"
+                                    d="M240 128a16.1 16.1 0 0 1-7.7 13.7l-144 87.9a15.5 15.5 0 0 1-16.1.3A15.8 15.8 0 0 1 64 216V40a15.8 15.8 0 0 1 8.2-13.9a15.5 15.5 0 0 1 16.1.3l144 87.9A16.1 16.1 0 0 1 240 128Z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </div>
+              <div class="swiper-slide">
+                  <div class="slide-con"><img
+                          src="assets/bundles.jpg"
+                          alt="">
+                          <div class="slide-details">
+                              <div class="movie-info">
+                                  <h2 class="movie-name" title="">
+                                    Bundles
+                                  </h2>
+                                  <span class="movie-views" title="">
+                                      
+                                  </span>
+                              </div>
+                              <div class="movie-btns">
+                                  <a href="#" class="like" title="">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36">
+                                          <path fill="currentColor"
+                                              d="M33 7.64c-1.34-2.75-5.2-5-9.69-3.69A9.87 9.87 0 0 0 18 7.72a9.87 9.87 0 0 0-5.31-3.77C8.19 2.66 4.34 4.89 3 7.64c-1.88 3.85-1.1 8.18 2.32 12.87C8 24.18 11.83 27.9 17.39 32.22a1 1 0 0 0 1.23 0c5.55-4.31 9.39-8 12.07-11.71c3.41-4.69 4.19-9.02 2.31-12.87Z"
+                                              class="clr-i-solid clr-i-solid-path-1" />
+                                          <path fill="none" d="M0 0h36v36H0z" />
+                                      </svg>
+                                  </a>
+                                  <a href="#" class="show-movie" title="">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256">
+                                          <path fill="currentColor"
+                                              d="M240 128a16.1 16.1 0 0 1-7.7 13.7l-144 87.9a15.5 15.5 0 0 1-16.1.3A15.8 15.8 0 0 1 64 216V40a15.8 15.8 0 0 1 8.2-13.9a15.5 15.5 0 0 1 16.1.3l144 87.9A16.1 16.1 0 0 1 240 128Z" />
+                                      </svg>
+                                  </a>
+                              </div>
+                          </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                  <div class="slide-con">
+                      <img src="assets/cosmetics.jpg" alt="">
+                      <div class="slide-details">
+                          <div class="movie-info">
+                              <h2 class="movie-name" title="">
+                                Cosmetics
+                              </h2>
+                              </span>
+                              <span class="movie-views" title="">
+                                  
+                              </span>
+                          </div>
+                          <div class="movie-btns">
+                              <a href="#" class="like" title="">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                      preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36">
+                                      <path fill="currentColor"
+                                          d="M33 7.64c-1.34-2.75-5.2-5-9.69-3.69A9.87 9.87 0 0 0 18 7.72a9.87 9.87 0 0 0-5.31-3.77C8.19 2.66 4.34 4.89 3 7.64c-1.88 3.85-1.1 8.18 2.32 12.87C8 24.18 11.83 27.9 17.39 32.22a1 1 0 0 0 1.23 0c5.55-4.31 9.39-8 12.07-11.71c3.41-4.69 4.19-9.02 2.31-12.87Z"
+                                          class="clr-i-solid clr-i-solid-path-1" />
+                                      <path fill="none" d="M0 0h36v36H0z" />
+                                  </svg>
+                              </a>
+                              <a href="#" class="show-movie" title="">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                      preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256">
+                                      <path fill="currentColor"
+                                          d="M240 128a16.1 16.1 0 0 1-7.7 13.7l-144 87.9a15.5 15.5 0 0 1-16.1.3A15.8 15.8 0 0 1 64 216V40a15.8 15.8 0 0 1 8.2-13.9a15.5 15.5 0 0 1 16.1.3l144 87.9A16.1 16.1 0 0 1 240 128Z" />
+                                  </svg>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                  <div class="slide-con">
+                      <img src="assets/eye cream.jpg"
+                          alt="">
+                          <div class="slide-details">
+                              <div class="movie-info">
+                                  <h2 class="movie-name" title="">Eye Cream
+                                  </h2>
+                                  <span class="movie-views" title="">
+                                      
+                                  </span>
+                              </div>
+                              <div class="movie-btns">
+                                  <a href="#" class="like" title="">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36">
+                                          <path fill="currentColor"
+                                              d="M33 7.64c-1.34-2.75-5.2-5-9.69-3.69A9.87 9.87 0 0 0 18 7.72a9.87 9.87 0 0 0-5.31-3.77C8.19 2.66 4.34 4.89 3 7.64c-1.88 3.85-1.1 8.18 2.32 12.87C8 24.18 11.83 27.9 17.39 32.22a1 1 0 0 0 1.23 0c5.55-4.31 9.39-8 12.07-11.71c3.41-4.69 4.19-9.02 2.31-12.87Z"
+                                              class="clr-i-solid clr-i-solid-path-1" />
+                                          <path fill="none" d="M0 0h36v36H0z" />
+                                      </svg>
+                                  </a>
+                                  <a href="#" class="show-movie" title="">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em"
+                                          preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256">
+                                          <path fill="currentColor"
+                                              d="M240 128a16.1 16.1 0 0 1-7.7 13.7l-144 87.9a15.5 15.5 0 0 1-16.1.3A15.8 15.8 0 0 1 64 216V40a15.8 15.8 0 0 1 8.2-13.9a15.5 15.5 0 0 1 16.1.3l144 87.9A16.1 16.1 0 0 1 240 128Z" />
+                                      </svg>
+                                  </a>
+                              </div>
+                          </div>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+ <script>
+      new Swiper(".swiper", {
+          loop: true,
+          effect: 'coverflow',
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          speed: 500,
+          pagination: {
+              el: '.swiper-pagination',
+              clickable: true, 
+          
+          },
+
+          breakpoints	: {
+          768: {
+              centeredSlides: false,
+           coverflowEffect:{
+
+        depth: 0, 
+
+        rotate: 0, 
+
+        stretch : -10, 
+
+       
+
+       } 
+          }
+          },
+           autoplay: {
+            delay: 3000,
+           },
+       coverflowEffect:{
+        depth: 80, 
+        rotate: 50, 
+        stretch : 20, 
+       
+       } 
+      })
+  </script>
+
+
+  <footer>
+    <ul>
+      <h3>SUPPORT</h3>
+      <li>FAQS</li>
+      <li>TRACK ORDER</li>
+      <li>SHIPPING</li>
+      <li>ACCESSIBILITY</li>
+      <li>CONTACT US</li>
+    </ul>
+
+    <ul>
+      <h3>SKKN BY KIM</h3>
+      <li>ABOUT US</li>
+      <li>TUTORIALS</li>
+    </ul>
+
+    <ul>
+      <h3>CONNECT</h3>
+      <li>INSTAGRAM</li>
+      <li>FACEBOOK</li>
+      <li>TWITTER</li>
+      <li>YOUTUBE</li>
+      <li>TIKTOK</li>
+      <li>PINTEREST</li>
+    </ul>
+
+    <ul>
+      <h3>JOIN</h3>
+      <li id="email-inp"><input type="text" placeholder="Email Address"></li>
+      <li id="link">By submitting your email you agree that SKKN BY KIM may send you<br> promotional e-mail messages with offers, updates and other <br>marketing messages.
+         You understand that SKKN BY KIM may use<br> your information according with its <a href="#"> Privacy Policy.</a></li>
+    </ul>
+
+    
+  </footer>
+  <div id="footer-div">
+    <ul>
+      <li>PRIVACY POLICY</li>
+      <li>TERMS</li>
+      <li>COOKI POLICY</li>
+      <li>COOKIES SETTINGS</li>
+      <li>REWARDS PROGRAM TERMS</li>
+    </ul>
+
+    <P>© SKKN BY KIM 2024 ALL RIGHTS RESERVED</P>
+  </div>
+
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
