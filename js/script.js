@@ -40,5 +40,5 @@ headers:{
     })
 })
 }catch(err){
-    console.log(errx)
+    console.log(err)
 }
